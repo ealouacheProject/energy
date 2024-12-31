@@ -1,0 +1,178 @@
+{
+    "informations_generales": {
+        "numero_dpe": "2D20210532L1A",
+        "dates": {
+            "etablissement": "12/07/2021",
+            "validite": "11/07/2031"
+        },
+        "logement": {
+            "adresse": "42 avenue de la République",
+            "code_postal": "59170",
+            "ville": "Roubaix",
+            "etage": 3,
+            "porte": 1,
+            "type": "appartement",
+            "annee_construction": 1910,
+            "surface": 63
+        },
+        "proprietaire": {
+            "nom": "Jean Dupont",
+            "adresse": "25 place de la Mairie",
+            "code_postal": "59170",
+            "ville": "Roubaix"
+        },
+        "performance_energetique": {
+            "consommation_kwh_m2": 271,
+            "emissions_co2": {
+                "kg_co2_m2": 52,
+                "total_kg_an": 3276,
+                "equivalent_km_voiture": 16974
+            }
+        },
+        "diagnostiqueur": {
+            "societe": "PM Diagnostics",
+            "nom": "Pierre Martin",
+            "adresse": "12 rue de la Liberté",
+            "code_postal": "59170",
+            "ville": "Roubaix",
+            "telephone": "03 88 22 33 09",
+            "email": "Pierre@pm-diagnostics.fr",
+            "certification": {
+                "numero": "FR410230 49",
+                "organisme": "CERTIF 311"
+            }
+        }
+    },
+    "caracteristiques_techniques": {
+        "deperditions_chaleur": {
+            "toiture_plafond": 34,
+            "murs": 29,
+            "ventilation": 17,
+            "portes_fenetres": 12,
+            "ponts_thermiques": 8,
+            "plancher_bas": 0
+        },
+        "confort_ete": {
+            "evaluation": "INSUFFISANT",
+            "points_positifs": [
+                "bonne inertie du logement",
+                "logement traversant",
+                "fenêtres équipées de volets extérieurs"
+            ],
+            "recommandation": "Faire isoler la toiture"
+        },
+        "isolation": {
+            "performance": "INSUFFISANTE"
+        },
+        "ventilation": {
+            "systemes": [
+                "Ventilation par défaut d'étanchéité et ouverture des fenêtres",
+                "Ventilation mécanique ponctuelle dans la salle de bain"
+            ]
+        },
+        "energies_renouvelables": {
+            "equipement_actuel": "Non équipé",
+            "solutions_possibles": [
+                "pompe à chaleur",
+                "chauffe-eau thermodynamique",
+                "panneaux solaires photovoltaïques",
+                "panneaux solaires thermiques",
+                "géothermie",
+                "réseau de chaleur vertueux",
+                "chauffage au bois"
+            ]
+        }
+    },
+    "consommations_et_couts": {
+        "postes": {
+            "chauffage": {
+                "energie": "fioul",
+                "consommation_kwh": 9450,
+                "cout_annuel": {
+                    "min": 730,
+                    "max": 1000
+                },
+                "pourcentage_depenses": 50
+            },
+            "eau_chaude_sanitaire": {
+                "energie": "électrique",
+                "consommation_kwh": 6955,
+                "cout_annuel": {
+                    "min": 640,
+                    "max": 880
+                },
+                "pourcentage_depenses": 45
+            },
+            "eclairage": {
+                "energie": "électrique",
+                "consommation_kwh": 290,
+                "cout_annuel": {
+                    "min": 20,
+                    "max": 40
+                },
+                "pourcentage_depenses": 2
+            },
+            "auxiliaires": {
+                "energie": "électrique",
+                "consommation_kwh": 434,
+                "cout_annuel": {
+                    "min": 40,
+                    "max": 60
+                },
+                "pourcentage_depenses": 3
+            },
+            "refroidissement": {
+                "energie": "aucune",
+                "consommation_kwh": 0,
+                "cout_annuel": {
+                    "min": 0,
+                    "max": 0
+                },
+                "pourcentage_depenses": 0
+            }
+        },
+        "total_annuel": {
+            "consommation": {
+                "energie_primaire_kwh": 17129,
+                "energie_finale_kwh": 12789
+            },
+            "cout_total": {
+                "min": 1430,
+                "max": 1980
+            }
+        }
+    },
+    "recommandations_usage": {
+        "chauffage": {
+            "temperature_hiver": 19,
+            "temperature_chambres_nuit": 17,
+            "economie_possible": {
+                "pourcentage": 17,
+                "montant_euros": 177
+            }
+        },
+        "climatisation": {
+            "temperature_ete": 28,
+            "conseils": [
+                "Fermer fenêtres et volets la journée",
+                "Aérer la nuit"
+            ]
+        },
+        "eau_chaude": {
+            "consommation_recommandee_litres_jour": 106,
+            "economie_possible": {
+                "pourcentage": 29,
+                "montant_euros": 312
+            },
+            "conseils": [
+                "Installer des mousseurs d'eau",
+                "Utiliser un pommeau à faible débit",
+                "Réduire la durée des douches"
+            ],
+            "reference_douche": {
+                "duree_minutes": 5,
+                "consommation_litres": 40
+            }
+        }
+    }
+}
